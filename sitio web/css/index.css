@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+.navbar-brand{
+	font-family: alkatra
+}
+
+
+
+.navbar-nav {
+	font-family: montserrat
+}
+.btn, .btn-outline-success, .my-2, .my-sm-0{
+	color: #FFFFFF
+}
+.nav-link {
+	color: #FFFFFF;
+}
+.nav-link:hover{
+	color: #756969
+}
+.card-deck{
+	display: inline-block;
+}
+
+
+.col-md-3 {
+	align-items: center
+}
+
+.card-img {
+	align-self: center
+}
+
+.card-title {
+	font-family: montserrat;
+	font-size: 2em;
+	color: #FFFFFF
+}
+.card-text {
+	font-family: montserrat;
+	font-size: 1.2em;
+	color: #FFFFFF
+}
+
+.card-img {
+	height: auto
+}
+
+.no-gutters {
+	margin: 2%;
+	padding: 2%;
+	
+	
+}
+
+.col-md-1:hover{
+	color: #670305
+}
+
+.col-md-2:hover{
+	color: #670305
+}
+@font-face {font-family: montserrat;
+src: url("file:///Macintosh%20HD/Users/natyconsal/Documents/Producci%C3%B3n%20Digital%20II/sitio%20web/fuentes/Montserrat/static/Montserrat-Medium.ttf")	
+}
+
+@font-face {
+	font-family: alkatra;
+	src: url("file:///Macintosh%20HD/Users/natyconsal/Documents/Producci%C3%B3n%20Digital%20II/sitio%20web/fuentes/Alkatra/static/Alkatra-Medium.ttf")
+}
+	
+	
+	
