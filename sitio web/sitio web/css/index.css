@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth
+}
+.navbar-brand{
+	font-family: alkatra;
+}
+
+.navbar-nav {
+	font-family: montserrat
+}
+.btn, .btn-outline-success, .my-2, .my-sm-0{
+	color: #FFFFFF
+}
+.nav-link {
+	color: #FFFFFF;
+
+}
+.nav-link:hover{
+	color: #756969
+}
+
+.form-control{
+	display: inline;
+	width: 200px;
+}
+
+.btn{
+	width: 75px;
+	display: inline;
+	color: #FFFFFF
+}
+
+.my-sm-0{
+	color: #FFFFFF
+}
+
+.form-inline{
+	display: inline-block
+}
+
+.card-deck{
+	display: inline-block;
+}
+
+.col-md-12{
+	height: 580px
+}
+
+.rounded-4 {
+	padding: 3%
+}
+
+.rounded-4:nth-child(1){
+	background-color: #670305
+}
+
+.rounded-4:nth-child(2){
+	background-color: #EC070E
+}
+
+.rounded-4:nth-child(3){
+	background-color: #670305
+}
+
+.col-md-3 {
+	align-items: center
+}
+
+.col-md-9 {
+	padding: 3%
+}
+
+.card-img {
+	align-self: center
+}
+
+.card-title {
+	font-family: montserrat;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+.card-text {
+	font-family: montserrat;
+	font-size: 1.2em;
+	color: #FFFFFF
+}
+
+.card-img {
+	height: auto;
+	
+}
+
+.no-gutters {
+	margin: 1%;
+	padding: 1%;	
+}
+
+.col-md-1:hover{
+	color: #670305
+}
+
+.col-md-2:hover{
+	color: #670305
+}
+
+.col-md-8:hover{
+		color: #670305
+}
+
+@keyframes titilar {
+	0% {
+		display: none;
+	}
+	50% {
+		display: block;
+	}
+	100% {
+		display: none;
+	}
+}
+
+@font-face {font-family: montserrat;
+src: url("file:///Macintosh%20HD/Users/natyconsal/Documents/Producci%C3%B3n%20Digital%20II/sitio%20web/fuentes/Montserrat/static/Montserrat-Medium.ttf")	
+}
+
+@font-face {
+	font-family: alkatra;
+	src: url("file:///Macintosh%20HD/Users/natyconsal/Documents/Producci%C3%B3n%20Digital%20II/sitio%20web/fuentes/Alkatra/static/Alkatra-Medium.ttf")
+}
+
+@media (max-width:768px){
+	.col-md-12{
+		width: 100%;
+	height: 250px
+}
+	
+}
+
+
+	
+	
