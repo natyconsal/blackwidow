@@ -7,6 +7,13 @@
 }
 .navbar-brand{
 	font-family: alkatra;
+	color: #FFFFFF; 
+	font-size: 1.8em
+}
+
+.navbar-brand:hover {
+	color: #E9E6E6;
+	font-size: 1.85em
 }
 
 .navbar-nav {
@@ -19,8 +26,9 @@
 	color: #FFFFFF;
 
 }
-.nav-link:hover{
-	color: #756969
+.nav1:hover{
+	color: #756969;
+	font-size: 1.1em
 }
 
 .form-control{
@@ -59,7 +67,7 @@
 }
 
 .rounded-4:nth-child(2){
-	background-color: #EC070E
+	background-color: #EC070E;
 }
 
 .rounded-4:nth-child(3){
@@ -75,7 +83,7 @@
 }
 
 .card-img {
-	align-self: center
+	align-self: center;
 }
 
 .card-title {
@@ -109,6 +117,22 @@
 
 .col-md-8:hover{
 		color: #670305
+}
+
+.fa{
+	font-size:24px; 
+	color: #FFFFFF;
+	padding-right: 4%
+}
+
+.fa2{
+	font-size:24px;
+	color: #FFFFFF;
+	padding-right: 7%
+}
+
+.fa:hover{
+	font-size: 27px
 }
 
 @keyframes titilar {
