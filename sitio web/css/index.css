@@ -135,6 +135,50 @@
 	font-size: 27px
 }
 
+.perss {
+	background-color: black
+}
+
+.pers {
+	margin-top: 2%;
+	align-items: center
+}
+
+h1 {
+	font-family: montserrat;
+	justify-content: center
+}
+
+.perso:nth-child(1){
+	margin: 2%;
+	background-color: #670305
+}
+
+.perso:nth-child(2){
+	margin: 2%;
+	background-color: #756969
+}
+
+.perso:nth-child(3){
+	margin: 2%;
+	background-color: #670305
+}
+
+.person:nth-child(1){
+	margin: 2%;
+	background-color: #756969
+}
+
+.person:nth-child(2){
+	margin: 2%;
+	background-color: #670305
+}
+
+.person:nth-child(3){
+	margin: 2%;
+	background-color: #756969
+}
+
 @keyframes titilar {
 	0% {
 		display: none;
@@ -161,7 +205,12 @@ src: url("file:///Macintosh%20HD/Users/natyconsal/Documents/Producci%C3%B3n%20Di
 		width: 100%;
 	height: 250px
 }
-	
+	.form-control {
+		display: none
+	}
+	.btn {
+		display: none
+	}
 }
 
 
